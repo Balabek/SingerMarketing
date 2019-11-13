@@ -53,33 +53,27 @@ $(document).ready(function(){
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    arrows: false
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 720,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false
                 }
             }
         ]
     });
-
-
-
-
-
-
-
-
 
 
     // Animating the standard hamburger-menu
@@ -88,10 +82,15 @@ $(document).ready(function(){
     });
 
 
+    // Animating the "go-to" anchor scroll
+    $('a.anchor').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top -30
+        }, 800);
 
-    // Uncomment the line below to see the 'Sign Up' modal dialog
-    // $('#signupModal').modal('show');
+        $('.collapse').removeClass('in');
 
+    });
 
 
 

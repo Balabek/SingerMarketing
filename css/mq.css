@@ -6,3 +6,231 @@
 
 */
 
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* >>>>>>>> I M P O R T A N T ! <<<<<<<<< */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 767px){
+    #gravllCollapse {
+        position: absolute;
+        width: 100%;
+        margin-top: 25px;
+        background: rgba(0,0,0,0.8);
+        border-top: 2px solid #1E88E5;
+        padding-bottom: 16px;
+        padding-top: 6px;
+        z-index: 22;
+    }
+
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Navbar ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 1200px){
+    ul.singer_main_menu li a {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 992px){
+    ul.singer_main_menu li a {font-size: 0.7rem;}
+    ul.singer_main_menu li {margin-right: 0;}
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {top: -28px;}
+    .nav_main_logo {height: 160px;}
+    ul.singer_main_menu li a {font-size: 0.9rem;}
+    ul.singer_main_menu {top: 0;}
+    a.singer_menu_link:before {left: 2%; width: 18%;}
+    .nav_main_logo {position: relative; left: -28px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 992px){
+    .title_double_texts h1 {font-size: 42px;}
+    .title_double_texts h5 {font-size: 20px;}
+}
+
+@media screen and (max-width: 466px){
+    .title_double_texts h5 {font-size: 18px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Brands Slider ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 767px){
+    h2.sub_ttl {font-size: 22px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== About ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 767px){
+    .about_text_section {padding-top: 1px;}
+    .about_txt {padding-left: 20px; padding-right: 20px;}
+    .leftaligned {float: none;}
+    .left_ttl {text-align: center !important;}
+    .network_grey {top: 7%;}
+
+    .notebook_section {position: absolute; left: 50%;}
+    .notebook {position: relative; left: -50%; height: 500px; top: -50px;}
+}
+
+@media screen and (max-width: 440px){
+    .notebook {position: relative; left: -51%; height: 500px;}
+}
+
+@media screen and (max-width: 384px){
+    .about_area {min-height: 880px;}
+    .notebook {height: 365px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Automotive Services + Ecommerce Services ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 860px){
+    .services_holder {padding-top: 8px;}
+}
+
+@media screen and (max-width: 767px){
+    .servicebox {margin-bottom: 22px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Testimonials ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 992px){
+    .testimonial_txt p {font-size: 14px;}
+}
+
+@media screen and (max-width: 767px){
+    .testimonial_txt {overflow: auto;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Pre-Contact Area ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 1222px){
+    .pre_contact_area::after {background-position: 0 -300px;}
+}
+
+@media screen and (max-width: 888px){
+    .pre_contact_area::after {background-position: 0 -200px;}
+}
+
+@media screen and (max-width: 740px){
+    .pre_contact_area::after {background-position: 0 -100px;}
+}
+
+@media screen and (max-width: 590px){
+    .pre_contact_area::after {background-position: 0 -40px;}
+}
+
+@media screen and (max-width: 500px){
+    .pre_contact_area::after {background-position: 0 -10px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Contact Form ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 992px){
+    .contact_form_holder {width: 94%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Footer ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 2000px){
+    a.f_social {height: 20px; width: 20px;}
+}
+
+@media screen and (max-width: 992px){
+    ul.footer_linklist li a {font-size: 12px;}
+    ul.footer_socials li {float: none; margin-bottom: 6px;}
+}
+
+@media screen and (max-width: 767px){
+    .f_brandname_and_info {width: 100%; margin: 0 auto;}
+    h6.brandname {text-align: center;}
+    p.brandinfo {text-align: center;}
+    .phone_email_holder {top: 12px; margin-bottom: 45px; text-align: center;}
+    ul.footer_socials li {float: left; margin-bottom: 0;}
+    .regularlinks {width: 33%; float: left; left: 70px;}
+    .sociallinks {width: 33%; float: left; left: 20px;}
+    .footer_bottommost small {position: relative; top: -16px; font-size: 11px;}
+    span.f_logo_xl {height: 380px;}
+}
+
+@media screen and (max-width: 560px){
+    .regularlinks {left: 20px;}
+    .sociallinks {left: 18px;}
+}
+
+@media screen and (max-width: 469px){
+    .regularlinks {width: 49%; left: 69px; margin-bottom: 20px;}
+    .sociallinks {float: none; width: 100%;}
+    .sociallinks h6 {text-align: center; margin-bottom: 6px;}
+    ul.footer_socials {display: table; margin: 0 auto;}
+    hr.footer_separator {width: 88%; margin-top: 6%;}
+}
+
+@media screen and (max-width: 420px){
+    .regularlinks {left: 33px;}
+}
+

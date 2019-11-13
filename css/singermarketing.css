@@ -78,7 +78,7 @@ input:disabled, input[disabled] {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #3AAAF2;
+    background-color: #ffffff;
 }
 
 .navbar-toggle .icon-bar:nth-of-type(2) {top: 1px;}
@@ -290,8 +290,10 @@ hr.tagline_separator {
     display: block;
 }
 
-button.singer_main_cta_btn {
+a.singer_main_cta_btn {
     position: relative;
+    display: inline-block;
+    line-height: 3.5;
     top: 100px;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -317,7 +319,7 @@ button.singer_main_cta_btn {
     transition: all 0.4s ease-in;
 }
 
-button.singer_main_cta_btn:hover, button.singer_main_cta_btn:focus {
+a.singer_main_cta_btn:hover, a.singer_main_cta_btn:focus {
     background: #009977;
     color: #ffffff;
 }
@@ -472,6 +474,7 @@ article.about_txt {
     height: auto;
     background: #ffffff;
     padding-top: 55px;
+    padding-bottom: 45px;
 }
 
 .brief_info {
@@ -564,6 +567,7 @@ h3.service_title {
     height: auto;
     background: #f8f8f8;
     padding-top: 55px;
+    padding-bottom: 45px;
 }
 
 .whitecircle {
@@ -918,7 +922,7 @@ a.singer_email {
     font-size: 14px;
     font-weight: 400;
     color: #C4E4FF;
-    text-align: left;
+    /*text-align: left;*/
 
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;

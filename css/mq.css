@@ -44,8 +44,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .navbar-brand {top: -28px;}
-    .nav_main_logo {height: 160px;}
+    .navbar-brand {top: 14px;}
+    .nav_main_logo {height: 77px;}
     ul.singer_main_menu li a {font-size: 0.9rem;}
     ul.singer_main_menu {top: 0;}
     a.singer_menu_link:before {left: 2%; width: 18%;}
@@ -59,6 +59,25 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 /* =========== Header ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> L/XL <<<<< */
+@media screen and (min-width: 1600px){
+    .notebook {height: 1660px; width: 1372px; top: -406px;}
+    .network_grey {left: -37%;}
+    .network_blue {right: -38%;}
+    .network_white {right: -59%;}
+}
+
+@media screen and (min-width: 1900px){
+    .network_grey {left: -41%;}
+    .network_blue {right: -40%;}
+    .network_white {right: -65%;}
+}
+
+@media screen and (min-width: 2100px){
+    .network_white {right: -77%;}
+}
+
 
 /* >>>>> SM/XS <<<<< */
 @media screen and (max-width: 992px){

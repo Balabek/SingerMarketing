@@ -130,13 +130,14 @@ input:disabled, input[disabled] {
 }
 
 .nav_main_logo {
-    height: 185px;
+    height: 87px;
 }
 
 .navbar-brand {
     position: relative;
     padding: 0;
-    top: -38px;
+    top: 10px;
+    left: 50px;
 }
 
 ul.singer_main_menu {
@@ -378,6 +379,8 @@ hr.title_deco_hr.green {
 .brand.harleydavidson {background: url("../img/harley.png") center center no-repeat; background-size: contain;}
 .brand.ferrari {background: url("../img/Ferrari.png") center center no-repeat; background-size: contain;}
 .brand.audi {background: url("../img/Audi.png") center center no-repeat; background-size: contain;}
+.brand.jaguar {background: url("../img/jaguarlogo.png") center center no-repeat; background-size: contain;}
+.brand.landrover {background: url("../img/landroverlogo2.png") center center no-repeat; background-size: contain;}
 
 .slick-dots {
     bottom: -100px;
@@ -413,7 +416,7 @@ hr.title_deco_hr.green {
 }
 
 .about_text_section {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-left: 0;
     position: relative;
     z-index: 3;
@@ -640,11 +643,16 @@ h3.service_title {
 }
 
 .testimonial_txt p {
-    font-size: 15px;
+    font-size: 14px;
     color: #666;
     font-weight: 400;
     font-style: italic;
     line-height: 1.6;
+}
+
+.name_and_comany_holder {
+    position: relative;
+    bottom: -86px;
 }
 
 h5.t_name {
@@ -663,13 +671,14 @@ h6.t_company {
     text-align: center;
     font-size: 14px;
     margin-top: 1px;
+    margin-bottom: 4px;
 }
 
 span.quotation {
     display: inline-block;
     text-align: center;
     position: relative;
-    bottom: -20px;
+    bottom: -100px;
     height: 40px;
     width: 40px;
     background: url('../img/quotation-mark.svg') center center no-repeat;
@@ -1030,3 +1039,12 @@ hr.footer_separator {
     text-align: center;
 }
 
+.sociallinks h6 {
+    position: relative;
+    z-index: 5;
+}
+
+.regularlinks {
+    position: relative;
+    z-index: 9;
+}

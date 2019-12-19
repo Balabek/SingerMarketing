@@ -99,6 +99,7 @@
 /* >>>>> SM/XS <<<<< */
 @media screen and (max-width: 767px){
     h2.sub_ttl {font-size: 22px;}
+    .brands_carousel_area {min-height: 400px;}
 }
 
 
@@ -243,7 +244,7 @@
 
 @media screen and (max-width: 469px){
     .regularlinks {width: 49%; left: 69px; margin-bottom: 20px;}
-    .sociallinks {float: none; width: 100%;}
+    .sociallinks {width: 100%; margin-bottom: 32px;}
     .sociallinks h6 {text-align: center; margin-bottom: 6px;}
     ul.footer_socials {display: table; margin: 0 auto;}
     hr.footer_separator {width: 88%; margin-top: 6%;}

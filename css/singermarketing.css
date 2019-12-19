@@ -367,20 +367,26 @@ hr.title_deco_hr.green {
 
 .brand {
     display: block;
-    height: 108px;
+    height: 85px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
 }
 
 .brand.ford {background: url("../img/Ford.png") center center no-repeat; background-size: contain;}
 .brand.mazda {background: url("../img/mazda.png") center center no-repeat; background-size: contain;}
 .brand.chevrolet {background: url("../img/Chevrolet.png") center center no-repeat; background-size: contain;}
 .brand.mercedes {background: url("../img/Mercedes-Benz.png") center center no-repeat; background-size: contain;}
-.brand.harleydavidson {background: url("../img/harley.png") center center no-repeat; background-size: contain;}
-.brand.ferrari {background: url("../img/Ferrari.png") center center no-repeat; background-size: contain;}
 .brand.audi {background: url("../img/Audi.png") center center no-repeat; background-size: contain;}
 .brand.jaguar {background: url("../img/jaguarlogo.png") center center no-repeat; background-size: contain;}
 .brand.landrover {background: url("../img/landroverlogo2.png") center center no-repeat; background-size: contain;}
+.brand.bmw {background: url("../img/bmw.png") center center no-repeat; background-size: contain;}
+.brand.nissan {background: url("../img/nissan.png") center center no-repeat; background-size: contain;}
+.brand.lincoln {background: url("../img/lincoln.png") center center no-repeat; background-size: contain;}
+.brand.chrysler {background: url("../img/chrysler.png") center center no-repeat; background-size: contain;}
+.brand.honda {background: url("../img/honda.png") center center no-repeat; background-size: contain;}
+.brand.kia {background: url("../img/kia.png") center center no-repeat; background-size: contain;}
+.brand.toyota {background: url("../img/toyota.png") center center no-repeat; background-size: contain;}
+
 
 .slick-dots {
     bottom: -100px;

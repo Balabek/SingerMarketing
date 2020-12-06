@@ -95,11 +95,9 @@ $(document).ready(function(){
     // Animating the "go-to" anchor scroll
     $('a.anchor').click(function(){
         $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top -30
+            scrollTop: $( $(this).attr('href') ).offset().top -1
         }, 800);
-
         // $('.collapse').removeClass('in');
-
     });
 
 
